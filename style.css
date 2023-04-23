@@ -1,6 +1,6 @@
 /* text colors (background + text) */
 .text1{
-    background-color: transparent;
+    background-color: bisque;
 }
 .text2{
     background-color: thistle;
@@ -10,4 +10,44 @@
 .text3{
     background-color: rgb(30,34,58);
     color: #f0f8ff;s
+}
+
+/* units*/
+/*absolute unit*/
+.px{
+    width: 250px;
+}
+.vw{
+    width: 20vw;
+}
+.em{
+    width: 15em;
+}
+/* relative units*/
+.body{
+    font-size: 16px;
+}
+.smaller li{
+    font-size: 0.9em;
+}
+.larger li{
+    font-size: 1.3rem;
+}
+.largest li{
+    font-size: 2.0em;
+}
+
+/* box models */
+ul{
+    border: 4px solid olivedrab;
+    padding: .3em;
+}
+.block,
+li
+{
+    border: 4px hotpink;
+    padding: .5em;
+}
+.block{
+    display: block;
 }
