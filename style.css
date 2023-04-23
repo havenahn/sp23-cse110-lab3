@@ -1,16 +1,42 @@
-/* text colors (background + text) */
+/* text colors */
+body{
+    color: darkslategray;
+}
+h1{
+    color: darkgoldenrod;
+    text-decoration: underline;
+    text-decoration: initial;
+    text-align: center;
+}
+
+/* background colors + text)*/
 .text1{
     background-color: bisque;
+    display: block;
 }
 .text2{
     background-color: thistle;
     color: hsl(0,100%,25%);
-
 }
 .text3{
     background-color: rgb(30,34,58);
-    color: #f0f8ff;s
+    color: #f0f8ff;
 }
+.text4{
+    color: darkcyan;
+    display: inline-block;
+}
+
+/* display*/
+html{
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 
 /* units*/
 /*absolute unit*/
@@ -38,7 +64,7 @@
 }
 
 /* box models */
-ul{
+/*ul{
     border: 4px solid olivedrab;
     padding: .3em;
 }
@@ -50,4 +76,5 @@ li
 }
 .block{
     display: block;
-}
+}*/
+
