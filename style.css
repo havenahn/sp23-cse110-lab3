@@ -1,0 +1,13 @@
+/* text colors (background + text) */
+.text1{
+    background-color: transparent;
+}
+.text2{
+    background-color: thistle;
+    color: hsl(0,100%,25%);
+
+}
+.text3{
+    background-color: rgb(30,34,58);
+    color: #f0f8ff;s
+}
