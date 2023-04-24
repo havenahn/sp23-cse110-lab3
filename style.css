@@ -1,3 +1,35 @@
+/*font*/
+@font-face{
+    font-family: BrunoAce;
+    src: url(/fonts/BrunoAceSC-Regular.ttf);
+}
+@font-face{
+    font-family: DancingScript;
+    src: url(/fonts/DancingScript-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: JosefinSans;
+    src: url(/fonts/JosefinSans-VariableFont_wght.ttf);
+}
+p{
+    font-family: BrunoAce;
+}
+h3{
+    font-family: JosefinSans;
+}
+
+
+/* media query*/
+.animation{
+    animation: vibrate 0.1s linear infinite both;
+}
+@media (min-height: 680px){
+    .animation{
+        animation.none;
+    }
+}
+
+
 /* text colors */
 body{
     color: darkslategray;
@@ -30,7 +62,6 @@ h1{
 
 /* display*/
 html{
-    font-family: sans-serif;
     letter-spacing: 2px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -38,7 +69,9 @@ html{
     padding-right: 10px;
 }
 
-
+p{
+    font-family: 
+}
 /* units*/
 /*absolute unit*/
 .px{
@@ -137,6 +170,7 @@ child{
     column-gap: 10px;
     justify-items: center;
     align-items: stretch;
+    font-family: DancingScript;
 }
 .item-a{
     grid-column-start: 2;
@@ -145,6 +179,7 @@ child{
     background-color: rgba(0,255,0,0.3);
     justify-self:stretch;
     text-align: center;
+    
 }
 .item-b {
     grid-column-start: 4;
@@ -160,7 +195,6 @@ child{
     justify-self:stretch;
     text-align: center;
     background-color: rgba(0,255,0,0.3);
-    justify-self:stretch;
 }
 .item-d {
     grid-column: 1 / span 3;
@@ -168,7 +202,6 @@ child{
     justify-self:stretch;
     text-align: center;
     background-color: rgba(0,255,0,0.3);
-    justify-self:stretch;
 }
 .grid-item{
     justify-self: stretch;
