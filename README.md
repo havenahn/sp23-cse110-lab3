@@ -1,2 +1,2 @@
-# Lab 2 - Starter
-https://havenahn.github.io/Lab2_Starter_Haven/
+#Lab 3
+[https://havenahn.github.io/sp23-cse110-lab3/)](https://havenahn.github.io/sp23-cse110-lab3/)
