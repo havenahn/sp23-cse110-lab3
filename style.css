@@ -63,6 +63,35 @@ html{
     font-size: 2.0em;
 }
 
+/* sizing */
+img{
+    border: 5px solid orange;
+    width: 340px;
+    height: 250px;
+    position: sticky;
+    left: 30px; right: 30px;
+}
+video{
+    max-width: 550px;
+    max-height: 300px;  
+}
+audio{
+    position: relative;
+    bottom: 220px;
+}
+
+/* pseudo-class */
+button:hover{
+    color: orchid;
+}
+a:link{
+    color: blue;
+}
+a:visited{
+    color: purple;
+
+}
+
 /* box models */
 /*ul{
     border: 4px solid olivedrab;
