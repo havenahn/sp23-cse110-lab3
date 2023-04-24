@@ -58,13 +58,14 @@ h1{
     color: darkcyan;
     display: inline-block;
 }
-
+#attendance{
+    color: burlywood
+}
 
 /* display*/
-html{
+*{
     letter-spacing: 2px;
     padding-top: 10px;
-    padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
 }
