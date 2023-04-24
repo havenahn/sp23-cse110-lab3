@@ -14,9 +14,6 @@
 p, h3{
     font-family: BrunoAce;
 }
-h4{
-    font-family: JosefinSans;
-}
 
 
 /* media query*/
@@ -220,3 +217,18 @@ li
     display: block;
 }*/
 
+
+/* selectors*/
+div p{
+    font-style: italic;
+}
+h3 > p{
+    color: aquamarine;
+}
+h3 + ol{
+    font-family: JosefinSans;
+}
+div ~ p {
+    background-color: lightpink;
+}
+.modal.modal-green { color: green; }
